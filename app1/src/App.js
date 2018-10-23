@@ -3,8 +3,8 @@ import logo from './logo.svg';
 import './App.css';
 
 class App extends Component {
-  constuctor(props) {
-
+  constructor() {
+    super();
     this.state = {
       myName: 'Joe'
     }
